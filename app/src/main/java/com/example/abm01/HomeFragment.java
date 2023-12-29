@@ -11,10 +11,8 @@ import android.widget.Button;
 public class HomeFragment extends Fragment {
 
     Button addItemButton, listItemButton;
-
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
     private String mParam1;
     private String mParam2;
 
