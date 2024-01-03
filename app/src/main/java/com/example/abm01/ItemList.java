@@ -44,7 +44,7 @@ public class ItemList extends AppCompatActivity {
             List<Item> itemList = new ArrayList<>();
 
             try {
-                URL url = new URL("http://192.168.1.105/CURDMySql/read.php");
+                URL url = new URL("http://192.168.1.105/CURDMySql/read.php"); // (wi-fi)192.168.174.1  ||  (Ethernet)192.168.1.105
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
                 InputStream inputStream = connection.getInputStream();

@@ -1,0 +1,26 @@
+<!-- res/layout/activity_update_item.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <!-- Add other EditText fields for item properties -->
+
+    <Button
+        android:id="@+id/btnUpdateItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextItemName"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Update Item" />
+</RelativeLayout>

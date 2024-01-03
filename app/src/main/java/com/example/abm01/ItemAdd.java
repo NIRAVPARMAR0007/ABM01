@@ -76,7 +76,7 @@ public class ItemAdd extends AppCompatActivity {
                         itemRemarkValue
                 };
 
-                PutData putData = new PutData("http://192.168.1.105/CURDMySql/insert.php", "POST", field, data);
+                PutData putData = new PutData("http://192.168.1.105/CURDMySql/insert.php", "POST", field, data); // (wi-fi)192.168.174.1  ||  (Ethernet)192.168.1.105
                 if (putData.startPut()) {
                     if (putData.onComplete()) {
                         String result = putData.getResult();
